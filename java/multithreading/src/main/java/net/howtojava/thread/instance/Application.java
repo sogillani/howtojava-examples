@@ -1,4 +1,4 @@
-package net.howtojava.thread;
+package net.howtojava.thread.instance;
 
 class Runner extends Thread {
 
@@ -16,7 +16,7 @@ class Runner extends Thread {
     }
 }
 
-public class ThreadClass {
+public class Application {
     public static void main(String[] args) {
         Runner runnerOne = new Runner();
         runnerOne.start();

@@ -15,7 +15,7 @@ class Runner implements Runnable {
     }
 }
 
-public class RunnableInterface {
+public class Application {
     public static void main(String[] args) {
       Thread threadOne = new Thread(new Runner());
       threadOne.start();
